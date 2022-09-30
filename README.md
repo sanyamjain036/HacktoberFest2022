@@ -23,7 +23,7 @@ In this repository, you can find the solutions (as source code) for the problems
 1. Fork this repo by clicking on the **Fork** button in the top-right corner. This creates a new copy of my this repo under your GitHub user account with a URL like:
 
 ```javascript
-`https://github.com/<YourUserName>/HacktoberFest2022`
+https://github.com/<YourUserName>/HacktoberFest2022
 ```
 
 2. Clone the repo by opening the terminal on your computer and running the command:
