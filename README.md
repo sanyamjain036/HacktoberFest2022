@@ -6,7 +6,7 @@
 
 This repository is mainly open to those who are looking to make some PR for the Hacktoberfest event, and to get started with GitHub and the open-source world.
 
-In this repository, you can find the solutions (as source code) for the problems in [HackerRank](https://hackerrank.com), [Codeforces](https://codeforces.com), [LeetCode](https://leetcode.com).
+In this repository, you can find the solutions (as source code) for the problems in [LeetCode](https://leetcode.com).
 
 ###  Why contribute to this repository
 
@@ -14,7 +14,7 @@ In this repository, you can find the solutions (as source code) for the problems
 
 - Create your first Pull Request on GitHub
 
-- Start with any problem of your choice on [HackerRank](https://hackerrank.com), [Codeforces](https://codeforces.com), [LeetCode](https://leetcode.com).
+- Start with any problem of your choice on [LeetCode](https://leetcode.com).
 
 - Chance of receiving a T-Shirt for participating in the [Hacktoberfest](https://hacktoberfest.digitalocean.com)
 
@@ -33,7 +33,7 @@ https://github.com/<YourUserName>/HacktoberFest2022
 $ git clone https://github.com/<YourUserName>/HacktoberFest2022
 
 ```
-3. Choose any task on [HackerRank](https://hackerrank.com), [Codeforces](https://codeforces.com), [LeetCode](https://leetcode.com) or any other online platform and solve it, (or choose your already solved question).
+3. Choose any problem on [LeetCode](https://leetcode.com) or any other online platform and solve it, (or choose your already solved question).
 4. Paste the solution code in new file in appropriate folder.
 5. Add and commit the changes and push the changes.
 6. Make a pull request.
