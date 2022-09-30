@@ -33,7 +33,7 @@ https://github.com/<YourUserName>/HacktoberFest2022
 $ git clone https://github.com/<YourUserName>/HacktoberFest2022
 
 ```
-3. Choose any problem on [LeetCode](https://leetcode.com) or any other online platform and solve it, (or choose your already solved question).
+3. Choose any problem on [LeetCode](https://leetcode.com) (or choose your already solved question).
 4. Paste the solution code in new file in appropriate folder.
 5. Add and commit the changes and push the changes.
 6. Make a pull request.
