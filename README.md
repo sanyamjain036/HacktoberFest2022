@@ -15,7 +15,7 @@ This repository is mainly open to those who are looking to make some PR for the 
   
 
 In this repository, you can find the solutions (as source code) for the problems in [LeetCode](https://leetcode.com).
-
+If you like the repository, please star ⭐ it.
   
 
 ### Why contribute to this repository
@@ -43,7 +43,6 @@ In this repository, you can find the solutions (as source code) for the problems
   
 - For contributions in this repository, please read `CONTRIBUTING.md` first. (Please pull the changes from this repo if you have already forked the repository and are facing conflicts)
 
-- If you like the repository, please star it.
   
 
 ### Learning Resources
