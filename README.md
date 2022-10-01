@@ -30,7 +30,7 @@ In this repository, you can find the solutions (as source code) for the problems
 
   
 
-- Start with any problem of your choice on [LeetCode](https://leetcode.com).
+- Start with any problem of your choice on [LeetCode](https://leetcode.com). Mention the Question link and also mention Time and Space complexity of your solution.
 
   
 
