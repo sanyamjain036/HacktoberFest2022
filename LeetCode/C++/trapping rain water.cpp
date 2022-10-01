@@ -1,3 +1,6 @@
+// problem link: https://leetcode.com/problems/trapping-rain-water/
+// the time complexity of my solution is o(n) as we are traversing every element once by using a for loop
+//a constant space complexity of o(1) bcoz we are just using some variable to store the data 
 class Solution {
 public:
     int trap(vector<int>& height) {
