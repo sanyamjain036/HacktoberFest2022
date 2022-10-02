@@ -1,0 +1,29 @@
+class Solution:
+    def minWindow(self, s: str, t: str) -> str: 
+        window = Counter()
+        need = Counter(t)
+        left = right = start = valid = 0
+        win_len = float('inf')
+        
+        while right < len(s):
+            c = s[right]
+            
+            if c in need:
+                window[c] += 1
+                if window[c] == need[c]:
+                    valid += 1
+            
+            while valid == len(need):
+                if (right - left + 1) < win_len:
+                    win_len = right - left + 1
+                    start = left
+                d = s[left]
+                if d in need:
+                    if window[d] == need[d]:
+                        valid -= 1
+                    window[d] -= 1
+                left += 1
+                
+            right += 1
+        
+        return "" if win_len == float('inf') else s[start: start + win_len]
