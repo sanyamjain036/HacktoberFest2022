@@ -1,0 +1,48 @@
+def solveSudoku(self, board):
+  
+    lstKeys = []
+
+    rowVals = [[str(i) for i in range(1, 10)] for _ in range(9)]
+    colVals = [[str(i) for i in range(1, 10)] for _ in range(9)]
+    boxVals = [[str(i) for i in range(1, 10)] for _ in range(9)]
+
+    for i in range(9):
+        for j in range(9):
+            theDigit = board[i][j]
+            k = i // 3 * 3 + j // 3
+            if theDigit == '.':
+                lstKeys.append((i, j, k))
+            else:
+                rowVals[i].remove(theDigit)
+                colVals[j].remove(theDigit)
+                boxVals[k].remove(theDigit)
+
+
+    def SudokuSolver(indx):            
+        if indx == lstKeys_len: return True
+
+        r, c, b = lstKeys[indx]
+        cands = []
+        for item in rowVals[r]:
+            if item in colVals[c]:
+                if item in boxVals[b]:
+                    cands.append(item)
+
+        for item in cands:
+            rowVals[r].remove(item)
+            colVals[c].remove(item)
+            boxVals[b].remove(item)
+
+            if SudokuSolver(indx + 1):
+                board[r][c] = item
+                return True
+            
+            rowVals[r].append(item)
+            colVals[c].append(item)
+            boxVals[b].append(item)
+
+        return False
+
+
+    lstKeys_len = len(lstKeys)
+    SudokuSolver(0)
